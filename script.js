@@ -13,3 +13,13 @@ function login() {
   return alert('Login ou senha inválidos.');
 }
 loginBtn.addEventListener('click', login);
+const submitBtn = document.getElementById('submit-btn');
+const agreement = document.getElementById('agreement');
+function activeBtn() {
+  if (agreement.checked === true) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+}
+agreement.addEventListener('click', activeBtn);
