@@ -23,3 +23,13 @@ function activeBtn() {
   }
 }
 agreement.addEventListener('click', activeBtn);
+const textarea = document.getElementById('textarea');
+function count() {
+  const textLength = textarea.value.length;
+  const inputLength = textarea.maxLength;
+  const count2 = document.getElementById('counter');
+
+  count2.innerHTML = inputLength - textLength;
+}
+
+textarea.addEventListener('input', count);
