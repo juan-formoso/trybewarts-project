@@ -17,4 +17,20 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+}
+#nome-sobrenome {
+  align-items: stretch;
+}
+#trybewarts-forms-logo {
+  height: 500px;
+}
+#input-name {
+  float: left;
+  width: 50%;
+}
+#input-lastname {
+  float: right;
+  width: 50%;
 }
