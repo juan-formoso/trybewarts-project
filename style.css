@@ -2,17 +2,18 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
-  padding: 0 10% 0 10%;
+  padding: 0 10%;
 }
-/* .trybewarts-header-logo {
-} */
+
 .trybewarts-login {
   display: flex;
   align-items: center;
 }
+
 main {
   display: flex;
 }
+
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -20,16 +21,20 @@ main {
   align-content: center;
   align-items: stretch;
 }
+
 #nome-sobrenome {
   align-items: stretch;
 }
+
 #trybewarts-forms-logo {
   height: 500px;
 }
+
 #input-name {
   float: left;
   width: 50%;
 }
+
 #input-lastname {
   float: right;
   width: 50%;
